@@ -1,13 +1,15 @@
+import { useState } from 'react';
 import ExpenseDate from './ExpenseDate';
 import Card from "../UI/Card";
 import './ExpenseItem.css';
 
 function ExpenseItem(props) {
  //Date Month Starts counting from 0
-  let title = props.title;
+ const [title, setTitle] = useState(props.title)
 
   const clickHandler = () => {
-    title = 'Updated';
+   
+    setTitle('Updated!!!');
     console.log(title);
    }
     return (
