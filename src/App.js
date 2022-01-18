@@ -5,8 +5,8 @@ import NewExpenses from "./components/NewExpenses/NewExpenses";
 const Dummy_Expenses = [
   {
     id: "e1",
-    title: "Initial Expense Date",
-    amount: "0",
+    title: "Welcome to Expense Tracker",
+    amount: "",
     date: new Date(),
   },
 ];
